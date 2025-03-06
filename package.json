@@ -1,0 +1,14 @@
+{
+  "name": "am4-ssr-spike",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "@ftr/code-standards": "^29.0.8",
+    "@types/express": "^5.0.0"
+  },
+  "dependencies": {
+    "@amcharts/amcharts4": "^4.10.39",
+    "express": "^5.0.1",
+    "playwright": "^1.50.1"
+  }
+}

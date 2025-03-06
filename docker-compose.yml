@@ -1,0 +1,15 @@
+name: am4-ssr-spike
+
+services:
+  playwright-chrome:
+    hostname: playwright-chrome
+    image: ghcr.io/browserless/chromium
+    restart: unless-stopped
+    ports:
+      - 3000:3000
+    environment:
+      - SCREEN_WIDTH=1024
+      - SCREEN_HEIGH=768
+      - SCREEN_DEPTH=16
+      - CONCURRENT=10
+      - TOKEN=506d9fac-640b-45f1-b17d-47c5f9b933dc
