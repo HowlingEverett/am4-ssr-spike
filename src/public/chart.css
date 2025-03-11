@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Archivo+Narrow");
+body {
+  font-family: "Archivo Narrow", sans-serif;
+}
+#chart_div {
+  width: 100%;
+  height: 500px;
+}

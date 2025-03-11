@@ -1,0 +1,4 @@
+{
+  "extends": "@ftr/code-standards/configs/tsconfig.json",
+  "allowSyntheticDefaultImports": true
+}
